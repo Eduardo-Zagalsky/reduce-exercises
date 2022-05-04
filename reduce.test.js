@@ -1,14 +1,14 @@
-// describe("#extractValue", function() {
-//   it("returns a new array with the value of each key in an array objects", function() {
-//     var arr = [
-//       { name: "Elie" },
-//       { name: "Tim" },
-//       { name: "Matt" },
-//       { name: "Colt" }
-//     ];
-//     expect(extractValue(arr, "name")).toEqual(["Elie", "Tim", "Matt", "Colt"]);
-//   });
-// });
+describe("#extractValue", function () {
+  it("returns a new array with the value of each key in an array objects", function () {
+    var arr = [
+      { name: "Elie" },
+      { name: "Tim" },
+      { name: "Matt" },
+      { name: "Colt" }
+    ];
+    expect(extractValue(arr, "name")).toEqual(["Elie", "Tim", "Matt", "Colt"]);
+  });
+});
 
 // describe("#vowelCount", function() {
 //   it("returns an object with the keys as vowels and the values as the count", function() {
